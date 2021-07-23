@@ -1,3 +1,34 @@
+Introdução
+
+O projeto é desenvolvido utilizando o NodeJS com ElectronJS. É necessário baixar o Node disponível em:
+https://nodejs.org/en/download/ 
+
+o que é NodeJS?
+É um compilador javascript que permite a utilização da linguagem em qualquer segmento (apps executáveis, RESTApi's, Spa's, Nativos Mobile, etc...). Ao instalá-lo, ele agrega um Package Manager chamado NPM
+
+O que é NPM?
+É um Package Manager que faz a gestão das ferramentas utilizadas no projeto.
+
+O que é ElectronJS
+É uma biblioteca que compila um código Javascript em um executável
+
+Com o nodejs instalado, abra o CMD para execução dos comandos.
+
+Abra a pasta do projeto pelo CMD, e instale as bibliotecas necessárias do projeto (no caso, ElectronJS) digitando o comando: npm install
+
+Execute o projeto localmente utilizando o comando: npm start
+
+Para compilar o projeto em um executável, é necessário instalar globalmente a biblioteca "electron-packager" via o comando: npm install electron-packager -g
+
+Em seguida, na pasta do projeto, execute o comando:
+electron-packager ./ robo --platform=win32 --arch=x64
+
+Será gerado um executável da aplicação
+
+
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/costdrivers/docs/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
