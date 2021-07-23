@@ -1,4 +1,4 @@
-Introdução
+## Introdução
 
 O projeto é desenvolvido utilizando o NodeJS com ElectronJS. É necessário baixar o Node disponível em:
 https://nodejs.org/en/download/ 
