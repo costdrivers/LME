@@ -23,7 +23,14 @@ Para compilar o projeto em um executável, é necessário instalar globalmente a
 Em seguida, na pasta do projeto, execute o comando:
 electron-packager ./ robo --platform=win32 --arch=x64
 
-Será gerado um executável da aplicação
+Será gerado um executável da aplicação.
+
+
+
+
+
+
+
 
 
 
